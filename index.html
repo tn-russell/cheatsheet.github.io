@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector Cheatsheet</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>CSS Selector Cheatsheet</h1>
+    <p id="intro">CSS Selectors are the first part of every CSS rule. They tell you which part of the html the CSS rule will be applied to. Some are straight forward and use simple terms, others group or stack html elements together.</p>
+    <h2>CSS Selectors</h2>
+    <table>
+     <thead>
+       <tr>
+        <th>Selector Name/Type</th> 
+        <th>CSS Notation</th>
+        <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Type Selectors</td> 
+        <td class="css">p { }</td>
+        <td>CSS type selectors apply the rule to match all elements of a given type or tag name. </td>
+      </tr>
+      <tr>
+        <td>Class Selector</td>
+        <td class="css">.header { }</td>
+        <td>CSS classes are denoted with a period are reusable and can be applied to many elements.</td>
+      </tr>
+      <tr>
+        <td>ID Selector</td>
+        <td class="css">#caption { }</td>
+        <td>CSS ID selectors are denoted with a hash, are unique, and style only a single element.</td>
+      </tr>
+      <tr>
+        <td>Groups of Selectors</td>
+        <td class="css">p, h1, h2 { }</td>
+        <td>Groups of selectors match multiple selectors to the same CSS rule, using a comma-separated list.</td>
+      </tr>
+      <tr>
+        <td>Chaining Selectors</td>
+        <td class="css">.section-heading.button { }</td>
+        <td>Chaining CSS selectors lets you apply a rule only to elements that match all criteria.</td>
+      </tr>
+      <tr>
+        <td>Descendant Selectors</td>
+        <td class="css">section ol li { }</td>
+        <td>This combination of selectors has a single space between each one and applies a rule to elements that are descended from another selector.</td>
+      </tr>
+      </tbody>
+    </table>
+  </body>
+  
+  
+</html>
